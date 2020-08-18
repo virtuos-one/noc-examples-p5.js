@@ -72,7 +72,7 @@ function draw() {
 
   // If we found the target phrase, stop
   if (population.isFinished()) {
-    //println(millis()/1000.0);
+    //print(millis()/1000.0);
     noLoop();
   }
 
